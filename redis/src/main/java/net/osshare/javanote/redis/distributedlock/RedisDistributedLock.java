@@ -1,4 +1,4 @@
-package net.osshare.javanote.redis;
+package net.osshare.javanote.redis.distributedlock;
 
 import redis.clients.jedis.Jedis;
 
