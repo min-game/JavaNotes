@@ -11,6 +11,7 @@
     <modules>
         <module>redis</module>
         <module>consistentHash</module>
+        <module>maven</module>
     </modules>
 
     <properties>
