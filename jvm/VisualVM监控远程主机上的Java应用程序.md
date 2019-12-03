@@ -19,6 +19,10 @@
 
 -Djava.rmi.server.hostname=xx.xx.xx.xx  ip为云服务器的外围ip
 
+``` shell script
+nohup java -Dcom.sun.management.jmxremote=true -Dcom.sun.management.jmxremote.rmi.port=1199 -Dcom.sun.management.jmxremote.port=1199 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Djava.rmi.server.hostname=xxx.xxx.xxx.xxx -jar snapshot-1.0.0.jar --spring.profiles.active=prod  &
+```
+
 - visualVM使用
 
 打开VisualVM -> 添加远程主机 ->添加JMX连接 -> 输入上面配置的端口号
